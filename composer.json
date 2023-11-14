@@ -1,0 +1,23 @@
+{
+  "name": "salesrender/plugin-core-integration",
+  "description": "SalesRender plugin integration core",
+  "type": "library",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Timur Kasumov aka XAKEPEHOK",
+      "email": "support@salesrender.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SalesRender\\Plugin\\Core\\Integration\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4.0",
+    "ext-json": "*",
+    "salesrender/plugin-core": "^0.3.0"
+  }
+}
